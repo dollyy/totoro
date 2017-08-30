@@ -1,0 +1,281 @@
+/*导航栏*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    font-family: "Microsoft Yahei";
+    margin:0 auto;
+    border:1px solid grey;
+}
+nav{
+    width: 1000px;
+    height: 100px;
+    margin:0 auto;
+    background: #000;
+    position: relative;
+    z-index: 10;
+}
+nav a:hover{
+    border-bottom: 3px solid white;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.pic01{
+    width: 240px;
+    height: 80px;
+    float:left;
+    margin:10px 50px;
+}
+.pic01 a:hover{
+    border-bottom: none;   
+}
+.navs{
+    width: 630px;
+    height: 97px;
+    list-style: none;
+    float:left;
+    line-height: 97px;
+    margin-left: 11px;
+}
+li{
+    float:left;
+    width: 100px;
+    text-align: center;
+    list-style: none;
+}
+
+
+.bg{
+    width: 1000px;
+    height: 500px;
+    background: url("../../imgs/audio/top.jpg");
+}
+
+
+.top{
+    width: 1000px;
+    height: 310px;
+    background: #4C413B;
+    position: relative;
+    margin: 0;
+}
+.left{
+    width: 680px;
+    height: 310px;  
+    float: left;
+}
+.word1{
+    width: 320px;
+    height: 100px;   
+    color: #F7B103;
+    font-size:70px;
+    margin: 60px 0 0 230px;
+}
+.word2{
+    width: 715px;
+    height: 20px; 
+    color: #FCF7D9;
+    margin: 20px 0 0 0;
+}
+.word3{
+    width: 640px;
+    height: 70px;   
+    color: #FCF7D9;
+    font-size:40px;
+    margin: 20px 17px;
+}
+.right{
+    width: 320px;
+    height: 240px;  
+    float: left;
+    background: url("../../imgs/audio/0.jpg") no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.bar{
+    width: 1000px;
+    height: 50px;  
+    margin: 0;
+    background: #F8D08E;
+    border-bottom: 1px solid grey;
+}
+.word4{
+    width: 1000px;
+    height: 50px; 
+    line-height: 80px;
+    color: #4C413B;
+}
+
+
+.center{
+    width: 1000px;
+    height: 350px;
+    background: #F8D08E;
+    position: relative;
+}
+.person1{
+    width: 199px;
+    height: 277px;   
+    float: left;
+    background: url("../../imgs/audio/宫崎骏.jpg");
+    position: absolute;
+    top:30px;
+    left:130px;
+}
+.icon1{
+    width: 50px;
+    height: 277px;   
+    float: left;  
+    font-size: 70px;
+    position: absolute;
+    top:30px;
+    left:350px;
+    line-height: 277px;
+}
+.person2{
+    width: 199px;
+    height: 277px;   
+    float: left;
+    background: url("../../imgs/audio/久石让 .jpg");
+    position: absolute;
+    top:30px;
+    left:430px;
+}
+.icon2{
+    width: 50px;
+    height: 277px;   
+    float: left;    
+    font-size: 70px;
+    position: absolute;
+    top:30px;
+    left:650px;
+    line-height: 277px;
+}
+.icon3{
+    width: 112px;
+    height: 277px;   
+    float: left;    
+    font-size: 70px;
+    position: absolute;
+    top:30px;
+    left:750px;
+    line-height: 237px;
+}
+
+
+.audio1{
+    width: 1000px;
+    height: 520px;   
+    background: #4C413B;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+
+input{
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.word5{
+    width: 985px;
+    height: 30px; 
+    color: #FCF7D9;
+    font-size: 22px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+.pic1{
+    width: 820px;
+    height: 410px; 
+    float: left;
+    position: absolute;
+    top:60px;
+    left: 1px;
+}
+.buttons_play{
+    width: 70px;
+    height: 70px; 
+    float: right;
+    position: absolute;
+    top:280px;
+    left: 880px;
+    background: url("../../imgs/audio/play.png");
+}
+input{
+    cursor: pointer;
+}
+.buttons_pause{
+    width: 70px;
+    height: 70px;  
+    float: right;
+    background: red;
+    position: absolute;
+    top:400px;
+    left: 880px;
+    background: url("../../imgs/audio/pause.png");
+    cursor: pointer;
+}
+
+.word6{
+    width: 1000px;
+    height: 50px; 
+    color: #FCF7D9;
+    color: #FCF7D9;
+    clear: both;
+    position: absolute;
+    top:470px;
+    left: 1px;
+    line-height: 80px;
+}
+.word7{
+    width: 899px;
+    height: 40px; 
+    color: #FCF7D9;
+    font-size: 28px;
+    position: absolute;
+    top:10px;
+    left: 20px;
+}
+.word8{
+    width: 969px;
+    height: 52px; 
+    color: #FCF7D9;
+    font-size: 20px;
+    position: absolute;
+    top:5px;
+    left: 10px;
+}
+.bottom{
+    width: 1000px;
+    height: 120px;
+    background: #F8D08E;
+    position: relative;
+}
+.word9{
+    width: 840px;
+    height: 80px;
+    font-size: 30px;
+    color: #4C413B;
+    position: absolute;
+    top: 22px;
+    left: 80px;
+}
+.backtop{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 6050px;
+    right: 90px;
+    background: red;
+}

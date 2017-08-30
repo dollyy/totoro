@@ -1,0 +1,323 @@
+/*导航栏*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    font-family: "Microsoft Yahei";
+    margin:0 auto;
+    border:1px solid grey;
+}
+nav{
+    width: 1000px;
+    height: 100px;
+    margin:0 auto;
+    background: #000;
+    position: relative;
+    z-index: 10;
+}
+nav a:hover{
+    border-bottom: 3px solid white;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.pic01{
+    width: 240px;
+    height: 80px;
+    float:left;
+    margin:10px 50px;
+}
+.pic01 a:hover{
+    border-bottom: none;   
+}
+.navs{
+    width: 630px;
+    height: 97px;
+    list-style: none;
+    float:left;
+    line-height: 97px;
+    margin-left: 11px;
+}
+li{
+    float:left;
+    width: 100px;
+    text-align: center;
+    list-style: none;
+}
+
+
+/*图片轮播*/
+#container{
+    width: 1000px; 
+    height: 400px; 
+    overflow: hidden; 
+    position: relative;
+}
+#list{ 
+    width: 7000px; 
+    height: 400px; 
+    position: absolute; 
+    z-index: 1;
+}
+#list img{ 
+    float: left;
+}
+#buttons{ 
+    position: absolute; 
+    height: 10px; 
+    width: 100px; 
+    z-index: 2; 
+    bottom: 20px; 
+    left: 450px;
+}
+#buttons span{
+    cursor: pointer; 
+    float: left; 
+    border: 1px solid #fff; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    background: #333; 
+    margin-right: 5px;
+}
+#buttons .on{ 
+    background: orangered;
+}
+.arrow{ 
+    cursor: pointer; 
+    display: none; 
+    line-height: 39px; 
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold; 
+    width: 40px; height: 40px; 
+    position: absolute; 
+    z-index: 2; 
+    top: 180px; 
+    background-color: RGBA(0,0,0,.3); 
+    color: #fff;
+    text-decoration: none;
+}
+.arrow:hover{ 
+    background-color: RGBA(0,0,0,.7);
+}
+#container:hover .arrow{ 
+    display: block;
+}
+#prev{ 
+    left: 20px;
+}
+#next{ 
+    right: 20px;
+}
+
+
+/*短发女孩*/
+.shorthair{
+    width: 1000px;
+    height: 750px;
+    border-bottom:1px solid grey;
+    position: relative;
+}
+.s_top{
+    width: 620px;
+    height: 45px;
+    position: absolute;
+    top: 20px;
+    left: 190px;
+}
+.lace1{
+    width: 240px;
+    height: 45px;
+    float: left;
+    line-height: 45px;
+    background: url("../../imgs/index/lace.jpg");
+}
+.title{
+    width: 140px;
+    height: 45px;
+    float: left;
+    color: #af2340;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+.lace2{
+    width: 240px;
+    height: 45px;
+    float: right;
+    background: url("../../imgs/index/lace.jpg");
+}
+.description{
+    width: 920px;
+    height: 52px;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+.pic02{
+    width: 1000px;
+    height: 552px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 2px;
+}
+.pic02 img{
+    border:1px solid grey;
+}
+.check{
+    width: 130px;
+    height: 33px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 22px;
+}
+.shorthair a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/**/
+.word{
+    width: 1000px;
+    height: 240px;
+    border-bottom:1px solid grey;
+    background: url("../../imgs/index/bg.jpg");
+    position: relative;
+}
+.word1{
+    width: 870px;
+    height: 36px;
+    text-align: center;
+    font-size: 28px;
+    color: #FFFFCC;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+}
+.word2{
+    width: 757px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+.click{
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    position: absolute;
+    top: 180px;
+    right: 70px;
+}
+.click a{
+    color: #fff;
+}
+
+/*联系方式*/
+.contact{
+    width: 1000px;
+    height: 273px;
+}
+.messages{
+    width: 437px;
+    height: 230px;
+    margin: 10px 20px;
+    padding: 10px 5px;
+    border:1px solid grey;
+    float: left;
+    position: relative;
+}
+.lace{
+    width: 447px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../../imgs/index/emaillace.jpg");
+    
+}
+.subject{
+    width: 410px;
+    height: 30px;
+    margin: 5px 9px;
+    padding-left: 2px;
+    font-size: 16px;
+}
+.message{
+    display: block;
+    width: 410px;
+    height: 120px;
+    margin: 5px 10px 0 10px;
+    font-size: 16px;
+}
+.submit{
+    width: 413px;
+    height: 35px;
+    margin: 0px 10px;
+}
+.phone{
+    width: 200px;
+    height: 243px;
+    float: left;
+    margin: 10px 20px;
+    border:1px solid grey;
+}
+.pic03{
+    width: 70px;
+    height: 107px;
+    margin: 10px auto;
+}
+.phone_mess{
+    text-align: center;
+    font-size: 23px;
+    padding: 15px auto;
+}
+.email{
+    width: 200px;
+    height: 243px;
+    float: left;
+    margin: 10px 20px;
+    border:1px solid grey;
+}
+.pic04{
+    width: 110px;
+    height: 98px;
+    margin: 10px auto;
+}
+.email_mess{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-size: 23px;
+    margin: 20px auto;
+}
+.email a{
+    color: black;
+    text-decoration: underline;
+}
+.email a:hover{
+    font-size: 26px;
+}
+
+
+.backtop{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 1700px;
+    right: 90px;
+    background: red;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音频</title>
+    <link rel="stylesheet" href="css/audio.css">
+</head>
+<body>
+    <!--导航栏-->
+    <nav>
+        <div class="pic01">
+            <a href="index.htm"><a name="top"><img src="../imgs/index/logo.png"></a></a>
+        </div>
+        <div class="navs">
+           <ul>
+                <li><a href="index.htm">首页</a></li>
+                <li><a href="person.htm">宫崎骏</a></li>
+                <li><a href="ghibli.htm">吉卜力</a></li>
+                <li><a href="production.htm">作品</a></li>
+                <li><a href="audio.htm">音频</a></li>
+                <li><a href="wind.htm"><div class="wind">风回家的森林</div></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="bg"></div>
+    
+    <div class="top">
+        <div class="left">
+            <div class="word1">FM<span style="color:#FCF7D9;font-size:58px">15126</span></div>
+            <div class="word2">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15</div>
+            <div class="word3">宫崎骏和久石让一起走过的<span style="color:#F7B103;font-size:60px"> 25 </span>年</div>
+        </div>
+        <div class="right"></div>
+    </div>
+    
+    <div class="bar">
+        <div class="word4">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="center">
+        <div class="person1"></div>
+        <div class="icon1">+</div>
+        <div class="person2"></div>
+        <div class="icon2">=</div>
+        <div class="icon3">……</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word5">导演：宫崎骏 配乐：久石让 的字样第一次出现在《风之谷》的片头，并且这一搭配一直持续了25年。</div>
+        <div class="pic1"><img src="../imgs/audio/1.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic1()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic1()"></div>
+        <audio src="../audio/风之谷.mp3" id="music1"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">伴随着你</div>
+        <div class="pic1"><img src="../imgs/audio/2.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic2()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic2()"></div>
+        <audio src="../audio/伴随着你.mp3" id="music2"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">我的邻居多多洛</div>
+        <div class="pic1"><img src="../imgs/audio/3.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic3()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic3()"></div>
+        <audio src="../audio/我的邻居多多洛.mp3" id="music3"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">更替的四季</div>
+        <div class="pic1"><img src="../imgs/audio/4.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic4()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic4()"></div>
+        <audio src="../audio/更替的四季.mp3" id="music4"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">樱桃成熟时</div>
+        <div class="pic1"><img src="../imgs/audio/5.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic5()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic5()"></div>
+        <audio src="../audio/樱桃成熟时.mp3" id="music5"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">《幽灵公主》的配乐获得第17届JASRAC奖铜奖</div>
+        <div class="pic1"><img src="../imgs/audio/6.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic6()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic6()"></div>
+        <audio src="../audio/幽灵公主.mp3" id="music6"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">永远同在</div>
+        <div class="pic1"><img src="../imgs/audio/7.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic7()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic7()"></div>
+        <audio src="../audio/永远同在.mp3" id="music7"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word8">凭借《哈尔的移动城堡》，久石让获得日本东京国际动画大赏“最佳音乐”和美国洛杉矶影评人协会的“最佳原创音乐奖”</div>
+        <div class="pic1"><img src="../imgs/audio/8.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic8()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic8()"></div>
+        <audio src="../audio/世界的约定.mp3" id="music8"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="audio1">
+        <div class="word7">《悬崖上的金鱼公主》获得日本电影金像奖“最佳原创音乐奖”</div>
+        <div class="pic1"><img src="../imgs/audio/9.jpg"></div>
+        <div class="buttons_play"><input type="button" onclick="playmusic9()"></div>
+        <div class="buttons_pause"><input type="button" onclick="pausemusic9()"></div>
+        <audio src="../audio/悬崖上的金鱼姬.mp3" id="music9"></audio>
+        <div class="word6">FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126FM15126</div>
+    </div>
+    
+    <div class="bottom">
+        <div class="word9">宫崎骏遇见久石让，引人入胜的动画与优美的音乐融合在一起，<br>蜕变成永恒的经典。</div>
+    </div>
+    <div class="backtop">
+        <a href="#top"><img src="../imgs/up.jpg" alt=""></a>
+    </div>
+</body>
+</html>
+<script src="js/audio.js"></script>
